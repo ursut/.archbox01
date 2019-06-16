@@ -1,13 +1,11 @@
-#!/bin/dash
+#!/bin/bash
 export PATH="${PATH}:$HOME/.scripts"
 #compton -b
 #compton -b --config ~/.config/compton.conf &
 #xbacklight -set 10
 
 # Background
-#hsetroot -center ~/.wallpaper.jpg
-#feh --bg-fill --randomize ~/.bg
-feh --bg-fill ~/.bg/wallhaven-444001.jpg
+feh --bg-fill --randomize ~/.bg
 # nitrogen --restore 
 
 # Fonts
