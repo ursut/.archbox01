@@ -1,0 +1,25 @@
+#!/bin/dash
+export PATH="${PATH}:$HOME/.scripts"
+#compton -b
+#compton -b --config ~/.config/compton.conf &
+#xbacklight -set 10
+
+# Background
+#hsetroot -center ~/.wallpaper.jpg
+#feh --bg-fill --randomize ~/.bg
+feh --bg-fill ~/.bg/wallhaven-444001.jpg
+# nitrogen --restore 
+
+# Fonts
+# Set x font path
+#xset +fp ~/.fonts/misc/
+
+#
+# xsettingsd is a daemon that implements the XSETTINGS specification.  The typical invocation is from a user's ~/.xsession file.
+#
+xsettingsd &
+
+#conky | lemonbar -g x28 \
+
+-f -*-rissole-* -f -*-waffle-* \
+-B "#141c21" -F "#93a1a1" &
